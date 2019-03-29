@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.enter.repair2.mapper.AdvertisementMapper">
+  <resultMap id="BaseResultMap" type="com.enter.repair2.entity.Advertisement">
+
+    <id column="advertisement_id" jdbcType="VARCHAR" property="advertisementId" />
+    <result column="advertisement_name" jdbcType="VARCHAR" property="advertisementName" />
+    <result column="advertisement_img" jdbcType="VARCHAR" property="advertisementImg" />
+    <result column="advertisement_start_time" jdbcType="TIMESTAMP" property="advertisementStartTime" />
+    <result column="advertisement_end_time" jdbcType="TIMESTAMP" property="advertisementEndTime" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="last_update_time" jdbcType="TIMESTAMP" property="lastUpdateTime" />
+  </resultMap>
+</mapper>

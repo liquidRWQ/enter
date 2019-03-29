@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.enter.repair2.mapper.UserMapper">
+    <resultMap id="BaseResultMap" type="com.enter.repair2.entity.User">
+
+        <id column="user_id" jdbcType="VARCHAR" property="userId"/>
+        <result column="user_openid" jdbcType="VARCHAR" property="userOpenid"/>
+        <result column="user_session_key" jdbcType="VARCHAR" property="userSessionKey"/>
+        <result column="user_avatar_url" jdbcType="VARCHAR" property="userAvatarUrl"/>
+        <result column="user_nickname" jdbcType="VARCHAR" property="userNickname"/>
+        <result column="user_city" jdbcType="VARCHAR" property="userCity"/>
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime"/>
+        <result column="last_update_time" jdbcType="TIMESTAMP" property="lastUpdateTime"/>
+    </resultMap>
+
+    <select id="existsWithOpenid" parameterType="java.lang.String" resultType="java.lang.Boolean">
+        SELECT count(*)>0 FROM repair_user WHERE user_openid= #{userOpenid,jdbcType=VARCHAR}
+  </select>
+
+    <update id="updateByOpenId" parameterType="com.enter.repair2.entity.User">
+   update repair_user
+    set user_session_key = #{userSessionKey,jdbcType=VARCHAR},
+        user_nickname = #{userNickname,jdbcType=VARCHAR},
+        user_city = #{userCity,jdbcType=VARCHAR},
+        user_avatar_url = #{userAvatarUrl,jdbcType=VARCHAR},
+        last_update_time = #{lastUpdateTime,jdbcType=TIMESTAMP}
+    where user_openid = #{userOpenid,jdbcType=VARCHAR}
+  </update>
+
+    <select id="selectUserId" parameterType="java.lang.String" resultType="java.lang.String">
+        SELECT user_id FROM repair_user WHERE user_openid= #{userOpenid,jdbcType=VARCHAR}
+    </select>
+
+</mapper>

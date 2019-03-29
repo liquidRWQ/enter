@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatis.mapper.FaultMapper">
+  <resultMap id="BaseResultMap" type="com.enter.repair2.entity.Fault">
+
+    <id column="fault_id" jdbcType="VARCHAR" property="faultId" />
+    <result column="device_id" jdbcType="VARCHAR" property="deviceId" />
+    <result column="fault_type" jdbcType="VARCHAR" property="faultType" />
+    <result column="repair_price" jdbcType="DOUBLE" property="repairPrice" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="last_update_time" jdbcType="TIMESTAMP" property="lastUpdateTime" />
+  </resultMap>
+</mapper>
