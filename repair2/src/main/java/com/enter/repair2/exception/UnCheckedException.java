@@ -5,7 +5,7 @@ package com.enter.repair2.exception;
 *
 * @author Liquid
 *
-* @描述： 非检查异常，系统运行中可能出现的正常异常
+* @描述： 不受检异常，因代码逻辑错误的异常
 *
 * @date   2018/12/28
 */

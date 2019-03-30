@@ -36,7 +36,7 @@ public class TokenTimer {
                 }
 
             }
-        }, 0, RepairAppConfig.ACCESS_TOKEN_EFFECTIVE_SECOND / 3600, TimeUnit.HOURS);
+        }, 0, RepairAppConfig.ACCESS_TOKEN_EFFECTIVE_SECOND-200, TimeUnit.SECONDS);
     }
 
 }

@@ -28,7 +28,7 @@ public class HttpRequestUtils {
      */
     public static String sendGet(String url, String param) throws CheckedException {
 
-        String result = "";
+        String result;
         BufferedReader in = null;
         String urlNameString = url + "?" + param;
         try {
@@ -45,14 +45,18 @@ public class HttpRequestUtils {
             in = new BufferedReader(new InputStreamReader(
                     connection.getInputStream()));
             String line;
+            StringBuilder stringBuilder = new StringBuilder();
             while ((line = in.readLine()) != null) {
-                result += line;
+                stringBuilder.append(line);
             }
+            result = stringBuilder.toString();
         } catch (IOException e) {
             throw new CheckedException("发送GET请求异常:" + e.toString());
         } finally {
             try {
-                in.close();
+                if (in != null) {
+                    in.close();
+                }
             } catch (IOException e) {
                 throw new CheckedException("发送GET请求异常:" + e.toString());
             }
@@ -70,10 +74,9 @@ public class HttpRequestUtils {
      * @date 2018/12/26
      */
     public static String sendPost(String url, String param) throws CheckedException {
-
         PrintWriter out = null;
         BufferedReader in = null;
-        String result = "";
+        String result;
         try {
             URL realUrl = new URL(url);
             // 打开和URL之间的连接
@@ -95,10 +98,12 @@ public class HttpRequestUtils {
             // 定义BufferedReader输入流来读取URL的响应
             in = new BufferedReader(
                     new InputStreamReader(conn.getInputStream()));
-            String line = "";
+            String line;
+            StringBuilder stringBuilder = new StringBuilder();
             while ((line = in.readLine()) != null) {
-                result += line;
+                stringBuilder.append(line);
             }
+            result = stringBuilder.toString();
         } catch (Exception e) {
             throw new CheckedException("发送POST请求异常:" + e.toString());
         } finally {

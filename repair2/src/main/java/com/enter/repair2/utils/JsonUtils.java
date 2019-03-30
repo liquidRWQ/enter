@@ -3,14 +3,11 @@ package com.enter.repair2.utils;
 import com.alibaba.fastjson.JSONObject;
 
 /**
-* @类名： JsonUtil
-*
-* @author Liquid
-*
-* @描述： json转换的工具类
-*
-* @date   2018/12/28
-*/
+ * @author Liquid
+ * @类名： JsonUtil
+ * @描述： json转换的工具类
+ * @date 2018/12/28
+ */
 public class JsonUtils {
     /**
      * @param json json对象

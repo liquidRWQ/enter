@@ -6,7 +6,9 @@ import lombok.Data;
 import org.hibernate.validator.constraints.NotBlank;
 import org.springframework.beans.BeanUtils;
 
+import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
 import java.io.Serializable;
 import java.util.Date;
 
@@ -30,7 +32,7 @@ public class OrderDTO implements Serializable {
     @NotBlank
     private String name;
 
-    @NotBlank
+    @Pattern(regexp = "^1\\d{10}$")
     private String phone;
 
     @NotBlank
@@ -50,7 +52,7 @@ public class OrderDTO implements Serializable {
 
     private String repairWay;
 
-    @NotBlank
+    @DecimalMin("0.01")
     private Double price;
 
     private String img;

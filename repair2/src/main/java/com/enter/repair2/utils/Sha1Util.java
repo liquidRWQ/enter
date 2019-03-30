@@ -9,7 +9,7 @@ import org.apache.shiro.crypto.hash.SimpleHash;
  * @date 2018/12/24
  */
 public class Sha1Util {
-    public static String sha1SignatureEncrypt(String params){
+    public static String sha1SignatureEncrypt(String params) {
         SimpleHash sha1 = new SimpleHash("SHA1", params);
         String result = sha1.toString();
         return result;

@@ -41,16 +41,10 @@ public class CodeUtil {
         String code = weChatLoginDTO.getCode();
         String encryptedData = weChatLoginDTO.getEncryptedData();
         String iv = weChatLoginDTO.getIv();
-        StringBuilder stringBuilder = new StringBuilder();
-        String params = stringBuilder.append("appid=").append(WX_APPID)
-                .append("&secret=").append(WX_SECRET)
-                .append("&js_code=").append(code)
-                .append("&grant_type=").append(GRANT_TYPE)
-                .toString();
+        String params = "appid=" + WX_APPID + "&secret=" + WX_SECRET + "&js_code=" + code + "&grant_type=" + GRANT_TYPE;
         String sessionKey = getSessionKey(params);
         String encrypted = AesUtils.decrypt(encryptedData, sessionKey, iv);
-        User user = getUser(encrypted, sessionKey);
-        return user;
+        return getUser(encrypted, sessionKey);
 
     }
 
@@ -91,6 +85,5 @@ public class CodeUtil {
         user.setUserCity(userInfoJSON.get("city").toString());
         return user;
     }
-
 
 }

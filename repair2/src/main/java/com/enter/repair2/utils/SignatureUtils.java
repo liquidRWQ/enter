@@ -22,13 +22,13 @@ public class SignatureUtils {
         String nonce = enterpriseWeChatMessageDTO.getNonce();
         String encrypt = enterpriseWeChatMessageDTO.getEchostr();
         String[] array = new String[]{token, timestamp, nonce};
-        StringBuffer stringBuffer = new StringBuffer();
+        StringBuilder stringBuilder = new StringBuilder();
         // 字符串排序
         Arrays.sort(array);
         for (int i = 0; i < PARAMS_LENGTH; i++) {
-            stringBuffer.append(array[i]);
+            stringBuilder.append(array[i]);
         }
-        String str = stringBuffer.toString();
+        String str = stringBuilder.toString();
         // SHA1签名生成
         String sha1Str = Sha1Util.sha1SignatureEncrypt(str);
         return sha1Str;

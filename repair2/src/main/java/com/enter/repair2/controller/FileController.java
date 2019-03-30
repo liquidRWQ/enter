@@ -1,7 +1,7 @@
 package com.enter.repair2.controller;
 
 import com.enter.repair2.DTO.DownloadFileDTO;
-import com.enter.repair2.exception.FileException;
+import com.enter.repair2.exception.CheckedException;
 import com.enter.repair2.result.ResultBean;
 import com.enter.repair2.utils.MyFileUtil;
 import lombok.extern.slf4j.Slf4j;
@@ -19,25 +19,25 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.File;
 
 /**
- * @className FileController
- * @auther Liquid
- * @description
- * @date 2018/11/22
+ * @author Liquid
+ * @类名： FileController
+ * @描述：
+ * @date 2019/3/29
  */
 @Slf4j
 @RestController
 public class FileController {
     @PostMapping("/uploadToFeedback")
     public ResultBean uploadToFeedback(HttpServletRequest httpServletRequest, @RequestParam(value = "file", required = false) MultipartFile file) throws Exception {
-    /**
-     * @auther Liquid
-     * 
-     * @param [httpServletRequest, file]
-     * 
-     * @description
-     * 
-     * @date 2018/11/22 
-     */
+        /**
+         * @auther Liquid
+         *
+         * @param [httpServletRequest, file]
+         *
+         * @description
+         *
+         * @date 2018/11/22
+         */
         String serverPath = MyFileUtil.setImgToServer(httpServletRequest, file, "feedback");
         return new ResultBean<String>(serverPath);
 
@@ -76,7 +76,7 @@ public class FileController {
     }
 
     @PostMapping("/downloadFile")
-    public ResponseEntity<byte[]> downloadFile(DownloadFileDTO downloadFileDTO, HttpServletRequest httpServletRequest) throws Exception {
+    public ResponseEntity<byte[]> downloadFile(DownloadFileDTO downloadFileDTO, HttpServletRequest httpServletRequest) throws CheckedException {
         httpServletRequest.getSession().getServletContext().getRealPath("路径");
         String filePath = System.getProperty("user.home") + "/files/" + downloadFileDTO.getFileName();
         //依据文件路径构建File对象
@@ -97,7 +97,7 @@ public class FileController {
             //最后将整个ResponseEntity对象返回给DispatcherServlet
             return entity;
         } catch (Exception e) {
-            throw new FileException("文件下载失败:"+e.toString());
+            throw new CheckedException("文件下载失败:" + e.toString());
         }
 
     }
