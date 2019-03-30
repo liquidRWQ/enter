@@ -1,53 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e17cb345-92ba-42f8-9531-d4d01088f116" name="Default" comment="恩特维修1.1">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/enter/repair2/exception/UserException.java" />
+    <list default="true" id="e17cb345-92ba-42f8-9531-d4d01088f116" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/enter.log" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15_1_45.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enter/repair2/DTO/DeviceDTO.java" afterPath="$PROJECT_DIR$/src/main/java/com/enter/repair2/DTO/DeviceDTO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enter/repair2/DTO/OrderDTO.java" afterPath="$PROJECT_DIR$/src/main/java/com/enter/repair2/DTO/OrderDTO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enter/repair2/aop/LogAndExceptionAOP.java" afterPath="$PROJECT_DIR$/src/main/java/com/enter/repair2/aop/LogAndExceptionAOP.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enter/repair2/controller/FileController.java" afterPath="$PROJECT_DIR$/src/main/java/com/enter/repair2/controller/FileController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enter/repair2/exception/CheckedException.java" afterPath="$PROJECT_DIR$/src/main/java/com/enter/repair2/exception/CheckedException.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enter/repair2/exception/FileException.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enter/repair2/exception/UnCheckedException.java" afterPath="$PROJECT_DIR$/src/main/java/com/enter/repair2/exception/UnCheckedException.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enter/repair2/result/ResultBean.java" afterPath="$PROJECT_DIR$/src/main/java/com/enter/repair2/result/ResultBean.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enter/repair2/service/impl/ManagerServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/enter/repair2/service/impl/ManagerServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enter/repair2/service/impl/UserInfoServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/enter/repair2/service/impl/UserInfoServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enter/repair2/thread/TokenTimer.java" afterPath="$PROJECT_DIR$/src/main/java/com/enter/repair2/thread/TokenTimer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enter/repair2/utils/CodeUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/enter/repair2/utils/CodeUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enter/repair2/utils/HttpRequestUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/enter/repair2/utils/HttpRequestUtils.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enter/repair2/utils/JsonUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/enter/repair2/utils/JsonUtils.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enter/repair2/utils/MyFileUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/enter/repair2/utils/MyFileUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enter/repair2/utils/Sha1Util.java" afterPath="$PROJECT_DIR$/src/main/java/com/enter/repair2/utils/Sha1Util.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enter/repair2/utils/SignatureUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/enter/repair2/utils/SignatureUtils.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enter/repair2/utils/SpringRedisUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/enter/repair2/utils/SpringRedisUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enter/repair2/utils/StringExcuteUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/enter/repair2/utils/StringExcuteUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enter/repair2/utils/WeChatAccessTokenUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/enter/repair2/utils/WeChatAccessTokenUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" afterPath="$PROJECT_DIR$/target/classes/application.yml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enter/repair2/DTO/DeviceDTO$DeviceConvert.class" afterPath="$PROJECT_DIR$/target/classes/com/enter/repair2/DTO/DeviceDTO$DeviceConvert.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enter/repair2/DTO/DeviceDTO.class" afterPath="$PROJECT_DIR$/target/classes/com/enter/repair2/DTO/DeviceDTO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enter/repair2/DTO/OrderDTO$OrderConvert.class" afterPath="$PROJECT_DIR$/target/classes/com/enter/repair2/DTO/OrderDTO$OrderConvert.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enter/repair2/DTO/OrderDTO.class" afterPath="$PROJECT_DIR$/target/classes/com/enter/repair2/DTO/OrderDTO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enter/repair2/aop/LogAndExceptionAOP.class" afterPath="$PROJECT_DIR$/target/classes/com/enter/repair2/aop/LogAndExceptionAOP.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enter/repair2/controller/FileController.class" afterPath="$PROJECT_DIR$/target/classes/com/enter/repair2/controller/FileController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enter/repair2/result/ResultBean.class" afterPath="$PROJECT_DIR$/target/classes/com/enter/repair2/result/ResultBean.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enter/repair2/service/impl/ManagerServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/enter/repair2/service/impl/ManagerServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enter/repair2/service/impl/UserInfoServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/enter/repair2/service/impl/UserInfoServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enter/repair2/thread/TokenTimer.class" afterPath="$PROJECT_DIR$/target/classes/com/enter/repair2/thread/TokenTimer.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enter/repair2/utils/CodeUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/enter/repair2/utils/CodeUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enter/repair2/utils/HttpRequestUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/enter/repair2/utils/HttpRequestUtils.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enter/repair2/utils/JsonUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/enter/repair2/utils/JsonUtils.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enter/repair2/utils/MyFileUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/enter/repair2/utils/MyFileUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enter/repair2/utils/SignatureUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/enter/repair2/utils/SignatureUtils.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enter/repair2/utils/SpringRedisUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/enter/repair2/utils/SpringRedisUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/enter/repair2/utils/WeChatAccessTokenUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/enter/repair2/utils/WeChatAccessTokenUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/repair2-2.0.jar" afterPath="$PROJECT_DIR$/target/repair2-2.0.jar" />
-      <change beforePath="$PROJECT_DIR$/target/repair2-2.0.jar.original" afterPath="$PROJECT_DIR$/target/repair2-2.0.jar.original" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.enter.repair2.Repair2ApplicationTests.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.enter.repair2.Repair2ApplicationTests.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.enter.repair2.Repair2ApplicationTests.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.enter.repair2.Repair2ApplicationTests.txt" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/repair2.iml" afterPath="$PROJECT_DIR$/repair2.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,16 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TokenTimer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/enter/repair2/thread/TokenTimer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
@@ -136,6 +87,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="125" column="25" lean-forward="false" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="BindingResultAop.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/enter/repair2/aop/BindingResultAop.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -146,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogAndExceptionAOP.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LogAndExceptionAOP.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/enter/repair2/aop/LogAndExceptionAOP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+            <state relative-caret-position="425">
+              <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -178,6 +139,11 @@
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -212,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/enter/repair2/service/impl/UserInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enter/repair2/thread/TokenTimer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -453,125 +420,6 @@
               <item name="repair2" type="b2602c69:ProjectViewProjectNode" />
               <item name="repair2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="repair2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repair2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repair2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repair2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repair2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repair2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repair2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repair2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="repair2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repair2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repair2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="repair2" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repair2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repair2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="repair2" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repair2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repair2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="repair2" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repair2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repair2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="repair2" type="462c0819:PsiDirectoryNode" />
-              <item name="DTO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repair2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repair2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="repair2" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repair2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repair2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="repair2" type="462c0819:PsiDirectoryNode" />
-              <item name="reids" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repair2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repair2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="repair2" type="462c0819:PsiDirectoryNode" />
-              <item name="result" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repair2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repair2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="repair2" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repair2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repair2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="repair2" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repair2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repair2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="repair2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="repair2" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -581,7 +429,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -728,7 +576,7 @@
       <workItem from="1553832944167" duration="2463000" />
       <workItem from="1553861735411" duration="416000" />
       <workItem from="1553862787074" duration="1829000" />
-      <workItem from="1553920112958" duration="1782000" />
+      <workItem from="1553920112958" duration="2358000" />
     </task>
     <task id="LOCAL-00001" summary="恩特维修1.1">
       <created>1553827903210</created>
@@ -751,11 +599,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553830025097</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="恩特维修1.1.1">
+      <created>1553921926173</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553921926173</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10014000" />
+    <option name="totallyTimeSpent" value="10590000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -796,6 +651,7 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2761394" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -804,7 +660,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -840,21 +695,18 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="恩特维修1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="恩特维修1.1" />
+    <MESSAGE value="恩特维修1.1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="恩特维修1.1.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enter/repair2/entity/TemplateData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/enter/repair2/entity/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -979,8 +831,8 @@
         <state relative-caret-position="625">
           <caret line="35" column="58" lean-forward="false" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
           <folding>
-            <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="false" />
+            <element signature="e#1073#1074#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1013,14 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="60" column="21" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="60" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1102,10 +946,10 @@
         <state relative-caret-position="337">
           <caret line="40" column="50" lean-forward="false" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
           <folding>
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="false" />
+            <element signature="e#753#754#0" expanded="false" />
+            <element signature="e#811#812#0" expanded="false" />
+            <element signature="e#868#869#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1246,10 +1090,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/enter.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/enter/repair2/aop/LogAndExceptionAOP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        <state relative-caret-position="425">
+          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="125" column="25" lean-forward="false" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
           <folding />
         </state>
       </provider>
