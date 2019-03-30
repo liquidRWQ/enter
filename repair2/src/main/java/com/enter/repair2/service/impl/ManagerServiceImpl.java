@@ -3,7 +3,7 @@ package com.enter.repair2.service.impl;
 import com.enter.repair2.DTO.ManagerDTO;
 import com.enter.repair2.entity.Manager;
 import com.enter.repair2.exception.CheckedException;
-import com.enter.repair2.exception.UnCheckedException;
+import com.enter.repair2.exception.UserException;
 import com.enter.repair2.mapper.ManagerMapper;
 import com.enter.repair2.service.ManagerService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,7 +31,7 @@ public class ManagerServiceImpl implements ManagerService {
             manager.refreshLastUpdateTime();
             managerMapper.insertSelective(manager);
         }else {
-            throw new UnCheckedException("该管理员已经存在");
+            throw new UserException("该管理员已经存在");
         }
 
 

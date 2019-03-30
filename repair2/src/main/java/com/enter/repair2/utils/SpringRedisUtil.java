@@ -33,8 +33,7 @@ public class SpringRedisUtil {
     }
 
     public String getString(String key) {
-        String data = stringRedisTemplate.opsForValue().get(key);
-        return data;
+        return stringRedisTemplate.opsForValue().get(key);
     }
 
     public void deleteString(String key) {

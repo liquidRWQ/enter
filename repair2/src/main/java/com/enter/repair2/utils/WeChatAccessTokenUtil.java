@@ -3,6 +3,7 @@ package com.enter.repair2.utils;
 import com.alibaba.fastjson.JSONObject;
 import com.enter.repair2.config.RepairAppConfig;
 import com.enter.repair2.exception.CheckedException;
+import com.enter.repair2.exception.UnCheckedException;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -15,11 +16,8 @@ import lombok.extern.slf4j.Slf4j;
 public class WeChatAccessTokenUtil {
 
     public static String getAccessToken(String appId, String secret) throws CheckedException {
-        StringBuilder stringBuilder = new StringBuilder();
-        String params = stringBuilder.append("grant_type=")
-                .append(RepairAppConfig.GRANT_TYPE)
-                .append("&appid=").append(appId)
-                .append("&secret=").append(secret).toString();
+
+        String params = "grant_type=" + RepairAppConfig.GRANT_TYPE + "&appid=" + appId + "&secret=" + secret;
         String accessTokenInfo = HttpRequestUtils.sendGet("https://api.weixin.qq.com/cgi-bin/token", params);
         Object access_token = JSONObject.parseObject(accessTokenInfo).get("access_token");
         String result = "";
@@ -27,7 +25,7 @@ public class WeChatAccessTokenUtil {
             result = access_token.toString();
         } else {
             String errmsg = JSONObject.parseObject(accessTokenInfo).get("errmsg").toString();
-            throw new CheckedException("调用微信获取调用Token接口失败 " + errmsg);
+            throw new UnCheckedException("调用微信获取调用Token接口失败 " + errmsg);
         }
         String expiresIn = JSONObject.parseObject(accessTokenInfo).get("expires_in").toString();
         return result;
@@ -47,7 +45,7 @@ public class WeChatAccessTokenUtil {
             result = access_token.toString();
         } else {
             String errmsg = JSONObject.parseObject(accessTokenInfo).get("errmsg").toString();
-            throw new CheckedException("调用企业微信获取调用Token接口失败 " + errmsg);
+            throw new UnCheckedException("调用企业微信获取调用Token接口失败 " + errmsg);
         }
         String expiresIn = JSONObject.parseObject(accessTokenInfo).get("expires_in").toString();
         return result;

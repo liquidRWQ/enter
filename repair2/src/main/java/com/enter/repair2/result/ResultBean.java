@@ -14,15 +14,15 @@ import java.io.Serializable;
 public class ResultBean<T> implements Serializable {
     private static final long serialVersionUID = -8362519075967287843L;
 
-    public static final int NO_LOGIN = -1;
-
     public static final int SUCCESS = 0;
 
-    public static final int NORMAL_FAIL = 1;
+    public static final int USER_FAIL = 1;
 
-    public static final int CHECKEDEXCEPTION_FAIL = 2;
+    public static final int UNCHECKED_EXCEPTION_FAIL = 2;
 
-    public static final int NO_PERMISSION = 3;
+    public static final int CHECKED_EXCEPTION_FAIL = 3;
+
+    public static final int UNKNOWN_EXCEPTION_FAIL = 4;
 
     private String msg = "success";
 
@@ -39,9 +39,4 @@ public class ResultBean<T> implements Serializable {
         this.data = data;
     }
 
-    public ResultBean(Throwable e) {
-        super();
-        this.msg = e.toString();
-        this.code = CHECKEDEXCEPTION_FAIL;
-    }
 }

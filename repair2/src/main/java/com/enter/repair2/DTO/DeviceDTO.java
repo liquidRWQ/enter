@@ -34,13 +34,11 @@ public class DeviceDTO implements Serializable {
     }
 
     public Device convertToDevice() {
-        Device convert = deviceConvert.convertToDO(this);
-        return convert;
+        return deviceConvert.convertToDO(this);
     }
 
     public DeviceDTO convertToDeviceDTO(Device device) {
-        DeviceDTO convert = deviceConvert.convertToDTO(device);
-        return convert;
+        return deviceConvert.convertToDTO(device);
     }
 
     public static class DeviceConvert implements Convertible<Device, DeviceDTO> {

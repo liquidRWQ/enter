@@ -3,7 +3,7 @@ package com.enter.repair2.service.impl;
 import com.enter.repair2.DTO.UserInfoDTO;
 import com.enter.repair2.entity.UserInfo;
 import com.enter.repair2.exception.CheckedException;
-import com.enter.repair2.exception.UnCheckedException;
+import com.enter.repair2.exception.UserException;
 import com.enter.repair2.mapper.UserInfoMapper;
 import com.enter.repair2.service.UserInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -43,7 +43,7 @@ public class UserInfoServiceImpl implements UserInfoService {
         UserInfo userInfo = userInfoDTO.convertToUserInfo();
         List<UserInfo> userInfos = userInfoMapper.select(userInfo);
         if (userInfos.size() == 0) {
-            throw new UnCheckedException("您还没有填写地址信息");
+            throw new UserException("您还没有填写地址信息");
         }
         return userInfos;
     }
@@ -54,7 +54,7 @@ public class UserInfoServiceImpl implements UserInfoService {
         userInfo.refreshLastUpdateTime();
         int update = userInfoMapper.updateByPrimaryKeySelective(userInfo);
         if (update == 0) {
-            throw new UnCheckedException("该地址已经删除");
+            throw new UserException("该地址已经删除");
         }
     }
 
@@ -63,7 +63,7 @@ public class UserInfoServiceImpl implements UserInfoService {
         String userinfoId = userInfoDTO.getUserinfoId();
         int delete = userInfoMapper.deleteByPrimaryKey(userinfoId);
         if (delete == 0) {
-            throw new UnCheckedException("该地址已经删除");
+            throw new UserException("该地址已经删除");
         }
     }
 

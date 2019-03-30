@@ -10,13 +10,13 @@ import lombok.extern.java.Log;
  */
 @Log
 public class StringExcuteUtil {
-    public static String  removeQuotationMark(String target){
+    public static String removeQuotationMark(String target) {
         String replace = target.replace("\"", "").replace("\'", "");
         log.info("删除引号");
         return replace;
     }
 
-    public static String[]  splitByComma(String target){
+    public static String[] splitByComma(String target) {
         String[] split = target.split(",");
         log.info("根据逗号分割");
         return split;
